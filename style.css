@@ -1,0 +1,220 @@
+body {
+  padding-top: 50px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+hr {
+	margin: 0px;
+}
+
+button {
+	width: 25%;
+  	background-color: #232d3d;
+  	text-transform: uppercase;
+  	letter-spacing: 4px;
+  	font-family: Roboto;
+  	font-size: 20px;
+    color: white;
+    border: none;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    margin: auto;
+
+}
+
+button a {
+	color: white;
+}
+
+.divider {
+	padding: 20px;
+	background-color: #2c95dc;
+	position: relative;
+	z-index: 1;
+}
+
+.content {
+	width: 100%;
+	margin: auto;
+	height: 100vh;
+	padding-top: 100px;
+}
+
+.form-group .form-control{
+	background-color: #dee5ec;
+	margin: auto;
+	margin-bottom: 16px;
+	width: 60%;
+}
+
+.form-group .form-text {
+	margin: 0px;
+}
+
+.jumbotron {
+	margin: 0px;
+	padding-bottom: 20px;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+	margin: 0px;
+}
+
+.navbar .navbar-header .navbar-brand {
+	color: #2c95dc;
+	text-transform: uppercase;
+	font-family: "Roboto";
+	letter-spacing: 3px;
+}
+
+.content .container h1 {
+	text-transform: uppercase;
+}
+
+#Contact .container p {
+	color: #2c95dc;
+	font-size: 18px;
+
+}
+
+#Home {
+	z-index:1;
+	position: relative;
+	height: 100vh;
+	overflow: auto;
+	/*background-image: url("header-image.jpg");*/
+	background-position: 100% 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+
+#video-background {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -1;
+	width:100%;
+}
+
+
+#Home .container h1 {
+	padding-top: 10vh;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+    letter-spacing: 7px;
+}
+
+#Home .container button {
+	width: 25%;
+  	background-color: #232d3d;
+  	text-transform: uppercase;
+  	letter-spacing: 4px;
+  	font-family: Roboto;
+  	font-size: 20px;
+    color: white;
+    border: none;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+}
+
+#Home .container a {
+	/*position: relative;
+	z-index: 100;*/
+	color: white;
+}
+
+#About img {
+	margin: 0px;
+	width: 10%;
+	height: auto;
+	float: right;
+}
+
+#About {
+	overflow: auto;
+	background-color: white;
+	font-size: 16px;
+	color: black;
+	position: relative;
+	z-index: 1;
+}
+
+#About h1 {
+	color: #4681cc;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+#Contact button {
+	width: 25%;
+  	background-color: white;
+  	text-transform: lowercase;
+  	letter-spacing: 4px;
+  	font-family: Roboto;
+  	font-size: 16px;
+    border: none;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+}
+
+#Contact a {
+	color: #31353a;
+}
+
+#Contact {
+	overflow: auto;
+	background-color: #2e5494;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+#contact-submit {
+	width: 25%;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	background-color: #2c95dc;
+    color: white;
+}
+
+#photo-credit {
+	float: left;
+}
+
+#footer {
+	color: #9d9d9d;
+	background-color: #31353a;
+	text-align: right;
+	padding: 10px;
+	position: relative;
+	z-index: 1;
+}
+
+#thankyou_message {
+	display:none; 
+	letter-spacing: 4px; 
+	color: white;
+}
